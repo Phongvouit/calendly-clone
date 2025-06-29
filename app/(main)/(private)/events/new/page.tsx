@@ -1,3 +1,4 @@
+import EventForm from "@/components/forms/EventForm";
 import {
   Card,
   CardAction,
@@ -15,7 +16,7 @@ export default function NewEventPage() {
         <CardTitle>Card Title</CardTitle>
       </CardHeader>
       <CardContent>
-        <p>Card Content</p>
+        <EventForm/>
       </CardContent>
     </Card>
   );
